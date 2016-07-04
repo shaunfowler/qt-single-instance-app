@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    QString name = "com.qlik.sensedesktop";
+    QString name = "com.shaunfowler.myapp";
 
     SingleInstance cInstance;
     if(cInstance.hasPrevious(name, QCoreApplication::arguments()))
